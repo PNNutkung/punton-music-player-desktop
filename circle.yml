@@ -7,8 +7,4 @@ machine:
     pre:
       - npm install yarn
   test:
-    - yarn run lint
-		- yarn run test
-		- yarn run build
-		- yarn run test-e2e
-		- yarn run package
+    - yarn run test-all
