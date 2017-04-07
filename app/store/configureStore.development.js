@@ -5,8 +5,6 @@ import { routerMiddleware, push } from 'react-router-redux';
 import { createLogger } from 'redux-logger';
 import rootReducer from '../reducers';
 
-
-
 export default (initialState: ?counterStateType) => {
   // Redux Configuration
   const middleware = [];

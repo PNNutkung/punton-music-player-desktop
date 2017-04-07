@@ -1,5 +1,6 @@
 # Punton Music Player Desktop
 [![CircleCI](https://circleci.com/gh/PNNutkung/punton-music-player-desktop.svg?style=svg)](https://circleci.com/gh/PNNutkung/punton-music-player-desktop)
+[![Build Status](https://travis-ci.org/PNNutkung/punton-music-player-desktop.svg?branch=master)](https://travis-ci.org/PNNutkung/punton-music-player-desktop)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 
 ## Abstraction
