@@ -3,8 +3,11 @@ machine:
     Asia/Bangkok
   node:
     version: 6.10.2
-  dependencies:
-    pre:
-      - npm install yarn
-  test:
+
+dependencies:
+  pre:
+    - npm install yarn
+
+test:
+  override:
     - yarn run test-all
