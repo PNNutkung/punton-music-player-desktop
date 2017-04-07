@@ -1,0 +1,14 @@
+machine:
+  timezone:
+    Asia/Bangkok
+  node:
+    version: 6.10.2
+  dependencies:
+    pre:
+      - npm install yarn
+  test:
+    - yarn run lint
+		- yarn run test
+		- yarn run build
+		- yarn run test-e2e
+		- yarn run package
